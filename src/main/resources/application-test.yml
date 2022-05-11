@@ -1,0 +1,15 @@
+app:
+  greet: Hello World
+my:
+  list:
+    values: one,two,three
+dbValues: "{ username:'foo', password:'bar'}"
+
+
+db:
+  host: localhost-test
+  port: 9042
+  username: foo
+  password: bar
+
+management.endpoints.web.exposure.include: "*"
